@@ -19,7 +19,7 @@ if(email !== null && password !== null) {
                         Account.findOne({ where: { email: email } }).then((_user) => {
                             if(_user == null) { return _response.json({ status: 'error', message: 'Aucun compte trouvé.'}); }
                             const _token = jwt.sign({ user : _user }, '$2a$12$UWdFSS3kabEEY/9g20TSzehXdLW9fEtnRWURX1HtH/TGY6RkHrAmG', { expiresIn: 60*60 });
-                            return _response.json({ status: 'success', message: 'Utilisateur Connecté', token: _token, expiresIn: 60*60 }); 
+                            return _response.json({ status: 'success', message: 'Utilisateur Connecté', token: _token, expiresIn: 60*60*60 }); 
                         });
                 } else { return _response.json({ status: 'error', message: 'Mot de passe fourni erronée.'}); }
             } else { return _response.json({ status: 'error', message: 'Veuillez insérer un mot de passe valide.'}); }
