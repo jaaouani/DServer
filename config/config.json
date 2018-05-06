@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "jaaouani",
+    "password": null,
+    "database": "dashboard",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "jaaouani",
+    "password": null,
+    "database": "dashboard",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "jaaouani",
+    "password": null,
+    "database": "dashboard",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
