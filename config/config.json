@@ -16,10 +16,10 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "jaaouani",
-    "password": null,
-    "database": "dashboard",
-    "host": "127.0.0.1",
+    "username": "hdbilrgaccygzp",
+    "password": "80305c68fce2610cd02b83845bc0419bc404e2e8ba44141a5a2b55752874dee2",
+    "database": "dapi16e8up3bu6",
+    "host": "ec2-54-247-111-19.eu-west-1.compute.amazonaws.com",
     "port": 5432,
     "dialect": "postgres"
   }
